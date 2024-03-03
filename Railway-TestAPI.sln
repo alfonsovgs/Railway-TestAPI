@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6276845E-7D16-4B52-88F6-107E53BF95CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{9C26ED06-8B0B-4024-801D-D4F769C83790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railway.Api", "src\api\Railway.Api\Railway.Api.csproj", "{13816E9E-D484-4F3C-9B8C-C1897DC85BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13816E9E-D484-4F3C-9B8C-C1897DC85BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13816E9E-D484-4F3C-9B8C-C1897DC85BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13816E9E-D484-4F3C-9B8C-C1897DC85BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13816E9E-D484-4F3C-9B8C-C1897DC85BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C26ED06-8B0B-4024-801D-D4F769C83790} = {6276845E-7D16-4B52-88F6-107E53BF95CB}
+		{13816E9E-D484-4F3C-9B8C-C1897DC85BAC} = {9C26ED06-8B0B-4024-801D-D4F769C83790}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF6F0167-96C0-4AC1-AE9E-29DA3DE7245E}
+	EndGlobalSection
+EndGlobal
